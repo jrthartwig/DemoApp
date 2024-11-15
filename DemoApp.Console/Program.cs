@@ -12,6 +12,8 @@
         public static void PrintGreeting(string name)
         {
             Console.WriteLine($"Hello, {name}!!");
+            int letterCount = name.Length;
+            Console.WriteLine($"Your name has {letterCount} letters.");
         }
     }
 }
